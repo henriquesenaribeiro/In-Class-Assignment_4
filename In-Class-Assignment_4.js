@@ -14,3 +14,21 @@ if(!res.ok) {
     throw err;
   }
 }
+
+// Part 3
+
+import { getPosts } from './api.js';
+
+async function displayPosts() {
+  const posts = await get Posts();
+
+  post.slice(0, 5).forEach(post => {
+    div.innerHTML = <h3>${post.title}</h3><p>${post.body}</p.;
+  });
+} catch (err)' {
+  container.innerHTML = '<p style="color:red;">Failed to load posts:
+$ {err.message}</p>';
+    }
+}
+displayPosts();
+
